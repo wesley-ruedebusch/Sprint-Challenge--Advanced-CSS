@@ -1,8 +1,9 @@
 // Navigation code here
-.nav {
-  .displayflex();
-  padding: 3% 0% 1% 0%;
+.nav-container {
+  .displayflex1();
+  padding: 1% 0% 1% 0%;
   background-color:@wild-sand;
+  width: 100%;
 
   @media @phone {
     width: 100%;
@@ -13,13 +14,29 @@
     padding-bottom: 1%;
   }
 
+  nav {
+
+      .displayflex2 (); 
+      width: 60%;
+      margin: auto;
+
+      @media @phone {
+          width: 100%;
+      }
+      
+  }
+
   a {
     .font();
     text-decoration: none;
     color:@river-bend;
+    
   }
 }
 
 a:hover {
-  color: @sea-shell;
+  color: blue;
+  background-color: black;
+  border-radius: 3px;
 }
+
