@@ -1,1 +1,25 @@
 // Navigation code here
+.nav {
+  .displayflex();
+  padding: 3% 0% 1% 0%;
+  background-color:@wild-sand;
+
+  @media @phone {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    padding-bottom: 1%;
+  }
+
+  a {
+    .font();
+    text-decoration: none;
+    color:@river-bend;
+  }
+}
+
+a:hover {
+  color: @sea-shell;
+}
