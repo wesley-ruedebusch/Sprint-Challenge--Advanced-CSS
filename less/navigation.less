@@ -1,1 +1,42 @@
 // Navigation code here
+.nav-container {
+  .displayflex1();
+  padding: 1% 0% 1% 0%;
+  background-color:@wild-sand;
+  width: 100%;
+
+  @media @phone {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    padding-bottom: 1%;
+  }
+
+  nav {
+
+      .displayflex2 (); 
+      width: 60%;
+      margin: auto;
+
+      @media @phone {
+          width: 100%;
+      }
+      
+  }
+
+  a {
+    .font();
+    text-decoration: none;
+    color:@river-bend;
+    
+  }
+}
+
+a:hover {
+  color: blue;
+  background-color: black;
+  border-radius: 3px;
+}
+
